@@ -65,5 +65,10 @@
 			"}"
 		],
 		"description": "Vue watched properties"
+	},
+	"Vue_Import_Component": {
+		"prefix": "vui",
+		"body": ["import ${1} from \"${2}\";"],
+		"description": "Imports Vue component"
 	}
 }
