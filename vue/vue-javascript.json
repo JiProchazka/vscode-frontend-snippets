@@ -43,5 +43,27 @@
 			"])${0}"
 		],
 		"description": "Maps actions"
+	},
+	"Vue_Computed": {
+		"prefix": "vuco",
+		"body": [
+			"computed: {",
+			"\t${1}(${2}) {",
+			"\t\t${0}",
+			"\t}",
+			"}"
+		],
+		"description": "Vue computed properties"
+	},
+	"Vue_Watched": {
+		"prefix": "vuw",
+		"body": [
+			"watch: {",
+			"\t${1}(${2}) {",
+			"\t\t${0}",
+			"\t}",
+			"}"
+		],
+		"description": "Vue watched properties"
 	}
 }
