@@ -1,0 +1,16 @@
+{
+	"Vue_Component": {
+		"prefix": "vuc",
+		"body": [
+			"<template>",
+			"\t",
+			"</template>",
+			"<script>",
+			"\texport default {",
+  			"\t\tname: '${1}'${0}",
+			"\t}",
+			"</script>"
+		],
+		"description": "Vue Component"
+	}
+}

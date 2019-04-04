@@ -1,0 +1,47 @@
+{
+	"Vue_Data": {
+		"prefix": "vud",
+		"body": [
+			"data() {",
+			"\treturn {",
+			"\t\t${0}",	  
+			"\t}",
+			"}"
+		],
+		"description": "Vue Data"
+	},
+	"Vue_Methods": {
+		"prefix": "vums",
+		"body": [
+			"methods: {",
+			"\t${1}(${2}) {",
+			"\t\t${0}",
+			"\t}",
+			"}"
+		],
+		"description": "Vue methods block with a method declaration"
+	},
+	"Vue_Method": {
+		"prefix": "vum",
+		"body": [
+			"${1}(${2}) {",
+			"\t${0}",
+			"}"
+		],
+		"description": "Vue method declaration"
+	},
+	"Vue_Import_MapActions": {
+		"prefix": "vuima",
+		"body": ["import { mapActions } from 'vuex';"],
+		"description": "Imports 'mapActions' from Vuex"
+	},
+	"Vue_MapActions": {
+		"prefix": "vuma",
+		"body": [
+			"...mapActions(\"${1}\", [",
+			"\t\"${2}\"${3}",
+			"])${0}"
+		],
+		"description": "Maps actions"
+	}
+}
