@@ -44,6 +44,15 @@
 		],
 		"description": "Maps actions"
 	},
+	"Vue_MapGetters": {
+		"prefix": "vumg",
+		"body": [
+			"...mapGetters(\"${1}\", [",
+			"\t\"${2}\"${3}",
+			"])${0}"
+		],
+		"description": "Maps getters"
+	},
 	"Vue_Computed": {
 		"prefix": "vuco",
 		"body": [
