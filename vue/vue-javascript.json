@@ -31,7 +31,7 @@
 		"description": "Vue method declaration"
 	},
 	"Vue_Import_MapActionsGetters": {
-		"prefix": "vuima",
+		"prefix": "vuimag",
 		"body": ["import { ${1|mapActions,mapGetters|} } from 'vuex';${0}"],
 		"description": "Imports 'mapActions' or 'mapGetters' from Vuex"
 	},
