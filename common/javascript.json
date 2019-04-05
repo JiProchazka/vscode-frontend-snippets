@@ -1,0 +1,12 @@
+{
+	"Javascript_Default_Import": {
+		"prefix": "jsi",
+		"body": ["import ${1} from \"${2}\";${0}"],
+		"description": "Javascript default Import"
+	},
+	"Javascript_Named_Import": {
+		"prefix": "jsni",
+		"body": ["import { ${1} } from \"${2}\";${0}"],
+		"description": "Javascript Named Import"
+	}
+}
