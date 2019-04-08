@@ -97,7 +97,7 @@
 		"prefix": "vui",
 		"body": [
 			"Vue.component('${1}', {",
-			"\ttemplate: `${2}`",
+			"\ttemplate: `${0}`",
 			"});"
 		],
 		"description": "Vue instance"
