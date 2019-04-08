@@ -92,5 +92,14 @@
 			"}"
 		],
 		"description": "Vue props declaration"
+	},
+	"Vue_Instance": {
+		"prefix": "vui",
+		"body": [
+			"Vue.component('${1}', {",
+			"\ttemplate: `${2}`",
+			"});"
+		],
+		"description": "Vue instance"
 	}
 }
