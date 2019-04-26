@@ -14,8 +14,8 @@
 		"body": [
 			"new Promise((resolve, reject) => {",
 			"\t${0}",
-			"})"
+			"});"
 		],
-		"description": "Instantiating new Promise"
+		"description": "new Promise"
 	}
 }
