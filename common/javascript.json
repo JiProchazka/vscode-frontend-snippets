@@ -8,5 +8,14 @@
 		"prefix": "jsni",
 		"body": ["import { ${1} } from \"${2}\";${0}"],
 		"description": "Javascript Named Import"
+	},
+	"Javascript_Promise": {
+		"prefix": "jsprms",
+		"body": [
+			"new Promise((resolve, reject) => {",
+			"\t${0}",
+			"})"
+		],
+		"description": "Instantiating new Promise"
 	}
 }
