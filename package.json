@@ -1,29 +1,33 @@
 {
-	"name": "vscode-frontend-snippets",
-	"displayName": "Visual Studio Code Frontent Snippets",
-	"description": "Snippets for Vue and React development",
-	"version": "0.0.1",
-	"publisher": "jiprochazka",
-	"engines": {
-		"vscode": "^1.28.0"
-	},
-	"categories": [
-		"Snippets"
-	],
-	"contributes": {
-		"snippets": [
-			{
-				"language": "javascript",
-				"path": "./common/javascript.json"
-			},
-			{
-				"language": "vue",
-				"path": "./vue/vue.json"
-			},
-			{
-        		"language": "javascript",
-        		"path": "./vue/vue-javascript.json"
-			}
-		]
-	}
+  "name": "vscode-frontend-snippets",
+  "displayName": "Visual Studio Code Frontent Snippets",
+  "description": "Snippets for Vue and React development",
+  "version": "0.0.1",
+  "publisher": "jiprochazka",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript,vue,javascriptreact",
+        "path": "./common/javascript.json"
+      },
+      {
+        "language": "vue",
+        "path": "./vue/vue.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./vue/vue-javascript.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./react/react.json"
+      }
+    ]
+  }
 }
