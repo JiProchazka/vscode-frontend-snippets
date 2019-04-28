@@ -13,7 +13,15 @@
   "contributes": {
     "snippets": [
       {
-        "language": "javascript,vue,javascriptreact",
+        "language": "javascript",
+        "path": "./common/javascript.json"
+      },
+      {
+        "language": "vue",
+        "path": "./common/javascript.json"
+      },
+      {
+        "language": "javascriptreact",
         "path": "./common/javascript.json"
       },
       {
