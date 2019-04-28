@@ -27,5 +27,10 @@
       "export default ${1};"
     ],
     "description": "Create React Function Component"
+  },
+  "React_Route": {
+    "prefix": "rr",
+    "body": ["<Route path=\"${1}\" component={${2}} />${0}"],
+    "description": "React Router Component"
   }
 }
