@@ -7,24 +7,24 @@
   "React_Component": {
     "prefix": "rc",
     "body": [
-      "class {1} extends React.Component {",
+      "class ${1} extends React.Component {",
       "\trender() {",
-      "\t\treturn ({0});",
+      "\t\treturn (${0});",
       "\t}",
       "}",
       "",
-      "export default {1};"
+      "export default ${1};"
     ],
     "description": "Create React Component"
   },
   "React_Function_Component": {
     "prefix": "rfc",
     "body": [
-      "const {1} = ({2}) => {",
-      "\treturn ({0});",
+      "const ${1} = (${2}) => {",
+      "\treturn (${0});",
       "};",
       "",
-      "export default {1};"
+      "export default ${1};"
     ],
     "description": "Create React Function Component"
   }
