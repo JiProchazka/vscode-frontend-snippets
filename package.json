@@ -35,6 +35,10 @@
       {
         "language": "javascriptreact",
         "path": "./react/react.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./redux/react.json"
       }
     ]
   }
