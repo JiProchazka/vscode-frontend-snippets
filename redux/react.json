@@ -2,7 +2,7 @@
   "Redux_Map_Dispatch_to_Props": {
     "prefix": "rxmd",
     "body": [
-      "function mapDispatchToProps(dispatch) {",
+      "const mapDispatchToProps = dispatch => {",
       "\treturn {",
       "\t\t${1}: () => dispatch(${1}(${2}))${0}",
       "\t};",
@@ -13,7 +13,7 @@
   "Redux_Map_State_to_Props": {
     "prefix": "rxms",
     "body": [
-      "function mapStateToProps(state) {",
+      "const mapStateToProps = state => {",
       "\treturn {",
       "\t\t${1}: state.${0}",
       "\t};",
