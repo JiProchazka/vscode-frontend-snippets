@@ -1,0 +1,11 @@
+{
+  "Redux_Action": {
+    "prefix": "rxa",
+    "body": [
+      "export function ${1}(payload) {",
+      "\treturn { type: ${2}, ${3}: ${4} };",
+      "}${0}"
+    ],
+    "description": "Redux Action"
+  }
+}
