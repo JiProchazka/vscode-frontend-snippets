@@ -27,7 +27,7 @@
       "function ${1}(state = initialState, action) {",
       "\tif (action.type === ${2}) {",
       "\t\t${0}",
-      "\t\t}",
+      "\t}",
       "}"
     ],
     "description": "Redux Reducer"
