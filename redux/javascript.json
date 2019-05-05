@@ -13,7 +13,7 @@
     "body": [
       "export function ${1}(payload) {",
       "\treturn function(dispatch) {",
-      "\t\treturn http.${2|get|post|put|patch|delete}(\"/${3}\", payload).then(response => {",
+      "\t\treturn http.${2|get|post|put|patch|delete|}(\"/${3}\", payload).then(response => {",
       "\t\t\tdispatch({ type: ${4}, payload: response.data });",
       "\t\t});",
       "\t};",
