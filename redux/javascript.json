@@ -28,6 +28,7 @@
       "\tif (action.type === ${2}) {",
       "\t\t${0}",
       "\t}",
+      "\treturn state;",
       "}"
     ],
     "description": "Redux Reducer"
