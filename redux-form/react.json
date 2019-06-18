@@ -3,14 +3,20 @@
 		"prefix": "rxfcon",
 		"body": [
 			"import React from \"react\";",
+			"import { connect } from \"react-redux\";",
 			"import ${1}Component from \"${2}\";",
 			"",
+			"${0}",
+			"",
 			"export const ${1}Container = props => {",
-			"\tconst submit = values => {${0}};",
+			"\tconst submit = values => {};",
 			"\treturn <${1}Component onSubmit={submit} />;",
 			"};",
 			"",
-			"export default ${1}Container;"
+			"export default connect(",
+			"\tnull,",
+			"\tmapDispatchToProps",
+			")(${1}Container);"
 		],
 		"description": "Redux-Form Container"
 	},
@@ -18,7 +24,14 @@
 		"prefix": "rxfcom",
 		"body": [
 			"import React from \"react\";",
+			"import { connect } from \"react-redux\";",
 			"import { reduxForm } from \"redux-form\";",
+			"",
+			"const mapStateToProps = state => {",
+			"\treturn {",
+			"\t\tinitialValues: state.${0}",
+			"\t};",
+			"};",
 			"",
 			"class ${1}Component extends React.Component {",
 			"\trender() {",
@@ -28,11 +41,11 @@
 			"}",
 			"",
 			"${1}Component = reduxForm({",
-			"\tform: \"${0}\",",
+			"\tform: \"${2}\",",
 			"\tenableReinitialize: true",
 			"})(${1}Component);",
 			"",
-			"export default ${1}Component;"
+			"export default connect(mapStateToProps)(${1}Component);"
 		],
 		"description": "Redux-Form Component"
 	}
