@@ -43,6 +43,10 @@
       {
         "language": "javascript",
         "path": "./redux/javascript.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./redux-form/react.json"
       }
     ]
   }
