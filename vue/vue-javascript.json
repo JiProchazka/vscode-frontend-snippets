@@ -4,7 +4,7 @@
 		"body": [
 			"data() {",
 			"\treturn {",
-			"\t\t${0}",	  
+			"\t\t${0}",
 			"\t}",
 			"}"
 		],
@@ -32,7 +32,9 @@
 	},
 	"Vue_Import_MapActionsGetters": {
 		"prefix": "vuimag",
-		"body": ["import { ${1|mapActions,mapGetters|} } from 'vuex';${0}"],
+		"body": [
+			"import { ${1|mapActions,mapGetters|} } from 'vuex';${0}"
+		],
 		"description": "Imports 'mapActions' or 'mapGetters' from Vuex"
 	},
 	"Vue_MapActions": {
@@ -88,7 +90,9 @@
 		"prefix": "vup",
 		"body": [
 			"props: {",
-			"\t${1}: ${2}",
+			"\t${1} : {",
+			"\t\ttype: ${2|String,Object,Number,Boolean,Array,Date,Function,Symbol|}${0}",
+			"\t}",
 			"}"
 		],
 		"description": "Vue props declaration"
