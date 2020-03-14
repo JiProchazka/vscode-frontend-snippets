@@ -105,5 +105,16 @@
 			"});"
 		],
 		"description": "Vue instance"
+	},
+	"Vue_Composition_Setup": {
+		"prefix": "vcs",
+		"body": [
+			"setup() {",
+			"\t${0}",
+			"",
+			"\treturn {};",
+			"}"
+		],
+		"description": "Vue Composition API Setup Method"
 	}
 }
