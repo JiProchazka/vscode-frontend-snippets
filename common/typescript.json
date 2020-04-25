@@ -1,0 +1,16 @@
+{
+	"Typescript_Default_Import": {
+		"prefix": "tsi",
+		"body": [
+			"import ${1} from '${2}';${0}"
+		],
+		"description": "Typescript default Import"
+	},
+	"Typescript_Named_Import": {
+		"prefix": "tsni",
+		"body": [
+			"import { ${2} } from '${1}';${0}"
+		],
+		"description": "Typescript Named Import"
+	}
+}
