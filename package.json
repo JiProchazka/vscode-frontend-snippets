@@ -50,7 +50,7 @@
       },
       {
         "language": "typescript",
-        "path": "./common/typescript.js"
+        "path": "./common/typescript.json"
       }
     ]
   }

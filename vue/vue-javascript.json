@@ -97,6 +97,17 @@
 		],
 		"description": "Vue props declaration"
 	},
+	"Vue_TS_Props": {
+		"prefix": "vutp",
+		"body": [
+			"props: {",
+			"\t${1}: {",
+			"\t\ttype: ${2|String,Object,Number,Boolean,Array,Date,Function,Symbol|} as PropType<${3}>${0}",
+			"\t}",
+			"}"
+		],
+		"description": "Vue typescript props declaration"
+	},
 	"Vue_Instance": {
 		"prefix": "vui",
 		"body": [

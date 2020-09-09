@@ -3,14 +3,29 @@
 		"prefix": "vuc",
 		"body": [
 			"<template>",
-			"\t",
+			"\t${0}",
 			"</template>",
 			"<script>",
 			"export default {",
-  			"\tname: '${1}'${0}",
+			"\tname: '${1}'",
 			"}",
 			"</script>"
 		],
 		"description": "Vue Component"
+	},
+	"Vue_TS_Component": {
+		"prefix": "vutc",
+		"body": [
+			"<template>",
+			"\t${0}",
+			"</template>",
+			"<script lang=\"ts\">",
+			"import { defineComponent } from 'vue';",
+			"export default defineComponent ({",
+			"\tname: '${1}'",
+			"})",
+			"</script>"
+		],
+		"description": "Vue Typescript Component"
 	}
 }
