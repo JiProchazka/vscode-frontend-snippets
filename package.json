@@ -29,11 +29,7 @@
         "path": "./vue/vue-javascript.json"
       },
       {
-        "language": "javascript",
-        "path": "./vue/vue-form.json"
-      },
-      {
-        "language": "vue",
+        "language": "typescript",
         "path": "./vue/vue-form.json"
       },
       {
