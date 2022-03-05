@@ -1,4 +1,4 @@
-# Frontent Development Snippets mainly for Vue and React
+# Frontent Development Snippets mainly for Vue
 
 ## Installation
 

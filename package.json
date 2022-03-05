@@ -33,6 +33,10 @@
         "path": "./vue/vue-form.json"
       },
       {
+        "language": "vue",
+        "path": "./vue/vue-form.json"
+      },
+      {
         "language": "javascript",
         "path": "./redux/javascript.json"
       },
