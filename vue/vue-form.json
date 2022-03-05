@@ -3,8 +3,8 @@
 		"prefix": "vufv",
 		"body": [
 			"// form model and validation",
-			"class Form extends BaseForm {",
-			"\t${0}",
+			"class ${0}Form extends BaseForm {",
+			"\t${1}",
 			"",
 			"\tgetSchema(): any {",
 			"\t\treturn {",
@@ -12,7 +12,7 @@
 			"\t}",
 			"}",
 			"",
-			"const { handleSubmit, errors } = createValidatedModel(new Form())"
+			"const { handleSubmit, errors } = createValidatedModel(new ${0}Form())"
 		],
 		"description": "Vue Form Model and Validation"
 	},
@@ -20,8 +20,8 @@
 		"prefix": "vusf",
 		"body": [
 			"// submitting form",
-			"const submit = handleSubmit((values: Form) => {",
-			"\t${0}",
+			"const submit = handleSubmit((values: ${0}Form) => {",
+			"\t${1}",
 			"})"
 		],
 		"description": "Vue Submitting Form"
