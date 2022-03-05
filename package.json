@@ -21,10 +21,6 @@
         "path": "./common/javascript.json"
       },
       {
-        "language": "javascriptreact",
-        "path": "./common/javascript.json"
-      },
-      {
         "language": "vue",
         "path": "./vue/vue.json"
       },
@@ -33,20 +29,12 @@
         "path": "./vue/vue-javascript.json"
       },
       {
-        "language": "javascriptreact",
-        "path": "./react/react.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./redux/react.json"
+        "language": "javascript",
+        "path": "./vue/vue-form.json"
       },
       {
         "language": "javascript",
         "path": "./redux/javascript.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./redux-form/react.json"
       },
       {
         "language": "typescript",

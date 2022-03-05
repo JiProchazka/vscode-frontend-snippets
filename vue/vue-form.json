@@ -1,0 +1,29 @@
+{
+	"Vue_Form_Model_Validation": {
+		"prefix": "vufv",
+		"body": [
+			"// form model and validation",
+			"class Form extends BaseForm {",
+			"\t${0}",
+			"",
+			"\tgetSchema(): any {",
+			"\t\treturn {",
+			"\t\t}",
+			"\t}",
+			"}",
+			"",
+			"const { handleSubmit, errors } = createValidatedModel(new Form())"
+		],
+		"description": "Vue Form Model and Validation"
+	},
+	"Vue_Submitting_Form": {
+		"prefix": "vusf",
+		"body": [
+			"// submitting form",
+			"const submit = handleSubmit((values: Form) => {",
+			"\t${0}",
+			"})"
+		],
+		"description": "Vue Submitting Form"
+	}
+}

@@ -2,30 +2,16 @@
 	"Vue_Component": {
 		"prefix": "vuc",
 		"body": [
+			"<script setup lang=\"ts\">",
+			"</script>",
+			"",
 			"<template>",
 			"\t${0}",
 			"</template>",
-			"<script>",
-			"export default {",
-			"\tname: '${1}'",
-			"}",
-			"</script>"
+			"",
+			"<style lang=\"scss\" scoped>",
+			"</style>"
 		],
 		"description": "Vue Component"
-	},
-	"Vue_TS_Component": {
-		"prefix": "vutc",
-		"body": [
-			"<template>",
-			"\t${0}",
-			"</template>",
-			"<script lang=\"ts\">",
-			"import { defineComponent } from 'vue';",
-			"export default defineComponent ({",
-			"\tname: '${1}'",
-			"})",
-			"</script>"
-		],
-		"description": "Vue Typescript Component"
 	}
 }

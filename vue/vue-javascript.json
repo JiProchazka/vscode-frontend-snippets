@@ -108,15 +108,6 @@
 		],
 		"description": "Vue typescript props declaration"
 	},
-	"Vue_Instance": {
-		"prefix": "vui",
-		"body": [
-			"Vue.component('${1}', {",
-			"\ttemplate: `${0}`",
-			"});"
-		],
-		"description": "Vue instance"
-	},
 	"Vue_Composition_Setup": {
 		"prefix": "vcs",
 		"body": [
