@@ -2,12 +2,12 @@
 	"Pinia_Store": {
 		"prefix": "pns",
 		"body": [
-			"import { defineStore } from 'pinia'",
+			"import { acceptHMRUpdate, defineStore } from 'pinia'",
 			"",
-			"export const ${0}Store = defineStore('${0}', {",
+			"export const use${1}Store = defineStore('${1}', {",
 			"\tstate: () => {",
 			"\t\treturn {",
-			"\t\t\t${1}",
+			"\t\t\t${0}",
 			"\t\t}",
 			"\t},",
 			"})",
@@ -20,7 +20,7 @@
 			"* @see https://vitejs.dev/guide/api-hmr.html",
 			"*/",
 			"if (import.meta.hot) {",
-			"\timport.meta.hot.accept(acceptHMRUpdate(useUserSession, import.meta.hot))",
+			"\timport.meta.hot.accept(acceptHMRUpdate(use${1}, import.meta.hot))",
 			"}"
 		],
 		"description": "New Pinia Store"
