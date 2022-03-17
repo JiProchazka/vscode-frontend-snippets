@@ -39,6 +39,10 @@
       {
         "language": "typescript",
         "path": "./common/typescript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./pinia/pinia.json"
       }
     ]
   }
