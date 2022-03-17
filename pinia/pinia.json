@@ -20,7 +20,7 @@
 			"* @see https://vitejs.dev/guide/api-hmr.html",
 			"*/",
 			"if (import.meta.hot) {",
-			"\timport.meta.hot.accept(acceptHMRUpdate(use${1}, import.meta.hot))",
+			"\timport.meta.hot.accept(acceptHMRUpdate(use${1}Store, import.meta.hot))",
 			"}"
 		],
 		"description": "New Pinia Store"
