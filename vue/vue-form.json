@@ -25,5 +25,14 @@
 			"})"
 		],
 		"description": "Vue Submitting Form"
+	},
+	"Vue_Define_Emits": {
+		"prefix": "vuem",
+		"body": [
+			"const emit = defineEmits<{",
+			"\t(event: '{0}', {1}: {2}): void,{0}",
+			"}>()"
+		],
+		"description": "Vue Define Emits"
 	}
 }
