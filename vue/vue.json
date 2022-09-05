@@ -13,5 +13,21 @@
 			"</style>"
 		],
 		"description": "Vue Component"
+	},
+	"Vue_Setup_Method_Component": {
+		"prefix": "vsmc",
+		"body": [
+			"<template>",
+			"\t${0}",
+			"</template>",
+			"",
+			"<script>",
+			"import { defineComponent } from \"vue\";",
+			"",
+			"export default defineComponent({",
+			"name: \"${1}\",",
+			"});",
+			"</script>"
+		]
 	}
 }
