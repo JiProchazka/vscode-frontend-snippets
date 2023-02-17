@@ -1,0 +1,15 @@
+{
+  "React_Component": {
+    "prefix": "rc",
+    "body": [
+      "const ${1} = ({}: {}) => {",
+      "\treturn (",
+      "\t\t${0}",
+      "\t);",
+      "};",
+      "",
+      "export default ${1};"
+    ],
+    "description": "React Component"
+  }
+}

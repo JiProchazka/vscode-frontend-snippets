@@ -43,6 +43,10 @@
       {
         "language": "typescript",
         "path": "./pinia/pinia.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./react/react.json"
       }
     ]
   }
