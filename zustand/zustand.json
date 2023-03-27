@@ -1,0 +1,17 @@
+{
+  "Zustand_Store": {
+    "prefix": "zus",
+    "body": [
+      "import { create } from 'zustand';",
+      "",
+      "interface {1}State {}",
+      "",
+      "const use{1}Store = create<{1}State>((set) => ({",
+      "\t{0}",
+      "}));",
+      "",
+      "export default use{1}Store;"
+    ],
+    "description": "New Zustand Store"
+  }
+}

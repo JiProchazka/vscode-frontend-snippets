@@ -45,6 +45,10 @@
         "path": "./pinia/pinia.json"
       },
       {
+        "language": "typescript",
+        "path": "./zustand/zustand.json"
+      },
+      {
         "language": "typescriptreact",
         "path": "./react/react.json"
       }
