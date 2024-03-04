@@ -1,0 +1,17 @@
+{
+  "Nuxt_Api_Read_Body": {
+    "prefix": "nxt_api_read_body",
+    "body": ["const { \t${0} } = await readBody(event)"],
+    "description": "Nuxt Api Read Body"
+  },
+  "Nuxt_Api_Route_Params": {
+    "prefix": "nxt_api_route_params",
+    "body": ["const { \t${0} } = getRouterParams(event)"],
+    "description": "Nuxt Api Route Params"
+  },
+  "Nuxt_Api_Query_Params": {
+    "prefix": "nxt_api_query_params",
+    "body": ["const { \t${0} } = getQuery(event)"],
+    "description": "Nuxt Api Query Params"
+  }
+}

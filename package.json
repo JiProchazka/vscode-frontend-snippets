@@ -51,6 +51,10 @@
       {
         "language": "typescriptreact",
         "path": "./react/react.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./nuxt/nuxt-api.json"
       }
     ]
   }
