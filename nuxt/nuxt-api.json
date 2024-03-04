@@ -1,7 +1,7 @@
 {
   "Nuxt_Api_Read_Body": {
     "prefix": "nxt_api_read_body",
-    "body": ["const { ${0} } = await readBody(event)"],
+    "body": ["const { ${0} } = await readBody<${1}>(event)"],
     "description": "Nuxt Api Read Body"
   },
   "Nuxt_Api_Route_Params": {
